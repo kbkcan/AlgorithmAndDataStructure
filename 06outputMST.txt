@@ -1,0 +1,19 @@
+find(4) returns 4, find(6) returns 6,	Union(4, 6) done
+find(2) returns 2, find(5) returns 5,	Union(2, 5) done
+find(1) returns 1, find(6) returns 4,	Union(1, 4) done
+find(3) returns 3, find(5) returns 2,	Union(3, 2) done
+find(1) returns 4, find(4) returns 4,	No union performed
+find(5) returns 2, find(6) returns 4,	Union(2, 4) done
+find(2) returns 2, find(4) returns 2,	No union performed
+find(3) returns 2, find(6) returns 2,	No union performed
+find(0) returns 0, find(1) returns 2,	Union(0, 2) done
+
+Final Minimum Spanning Tree (6 edges)
+Edge (4, 6) weight=1
+Edge (2, 5) weight=2
+Edge (1, 6) weight=3
+Edge (3, 5) weight=4
+Edge (5, 6) weight=6
+Edge (0, 1) weight=9
+
+Total weight of all edges in MST = 25
